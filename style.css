@@ -34,13 +34,13 @@ html{
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: #000;
   display: block;
   transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  color: #ffffff;
 }
 
 .overlay .closebtn {
@@ -83,6 +83,7 @@ html{
     color: black;
 }
 
+
 .imageAboutPage {
     width: 100%;
     height: 100%;
@@ -107,9 +108,7 @@ html{
     border: 1px solid #008000;
 }
 
-.navbarScroll.navbarDark {
-    background-color: black;
-}
+
 
 
 
