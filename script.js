@@ -1,19 +1,19 @@
-const header = document.querySelector('.navbar');
+// const header = document.querySelector('.navbar');
 
-window.onscroll = function() {
-    const top = window.scrollY;
-    if(top >=100) {
-        header.classList.add('navbarDark');
-    }
-    else {
-        header.classList.remove('navbarDark');
-    }
-}
+// window.onscroll = function() {
+//     const top = window.scrollY;
+//     if(top >=100) {
+//         header.classList.add('navbarDark');
+//     }
+//     else {
+//         header.classList.remove('navbarDark');
+//     }
+// }
 
 
 
 function openNav() {
-  document.getElementById("myNav").style.height = "100%";
+  document.getElementById("myNav").style.height = "85%";
 }
 
 function closeNav() {
