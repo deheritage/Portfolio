@@ -10,7 +10,7 @@
     font-size: 50px;
 }
 .hero_desc {
-    font-size: 2rem;
+    font-size: 35px;
 }
 
 .hero-text {
@@ -60,8 +60,8 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
-align-content: center;  }
+    resize: vertical; 
+ }
   
   input[type=submit] {
     background-color: #04AA6D;
@@ -77,9 +77,11 @@ align-content: center;  }
   }
   
   .containers {
+    display: flex;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    justify-content: center;
   }
 
   
